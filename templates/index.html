@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Home page{% endblock %}
+{% block content %}
+<h1>Welcome to this website. Have a look around if you dare</h1>
+<p>This is just a website that was made to try and improve my ability to code, hopefully there aren't many bugs or glitches...</p>
+<p>If so, then blame Tech with Tim</p>
+
+<image src="{{ url_for('static', filename='images/pumpkincat.jpg')}}"></image>
+
+{% endblock %}
